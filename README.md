@@ -45,6 +45,10 @@ Desenvolver um sistema de avaliação que:
 
 - **Input**: Dataset "ObesityDataSet", estruturado conforme tabela abaixo.
   
+<p align="center">
+  <img src="images/images/table_dataset.jpg" alt="Tabela Dataset" width="400px">
+</p>
+  
 - **Processamento**:
   - Pré-processamento dos dados (limpeza, normalização, tratamento de variáveis categóricas).
   - Normalização da variável target “nível_obesidade” utilizando SMOTE.
@@ -77,13 +81,17 @@ Desenvolver um sistema de avaliação que:
 
 ### 4.2. Avaliação e Comparação
 
-#### 4.2.1. Regressão Logística
+### 4.2.1. Regressão Logística
 
 - **Matriz de Confusão**:
-  - (Gráfico)
+  <p align="center">
+    <img src="images/images/matriz_regressao.jpg" alt="Tabela Dataset" width="400px">
+  </p>
   
 - **Curva ROC**:
-  - (Gráfico)
+  <p align="center">
+    <img src="images/images/roc_regressao.jpg" alt="Tabela Dataset" width="400px">
+  </p>
 
 - **Relatório de Classificação**:
 
@@ -97,16 +105,29 @@ Desenvolver um sistema de avaliação que:
   | 5               | 0.94      | 0.99   | 0.97     | 126     |
   | 6               | 0.98      | 1.00   | 0.99     | 96      |
 
-  - **AUC-ROC** = 97.44%
-  - **F1-score Minor Class** = 87.16%
+> ###Legenda:
+> - **Abaixo do Peso**: 0
+> - **Peso Normal**: 1
+> - **Excesso de Peso Nível I**: 2
+> - **Excesso de Peso Nível II**: 3
+> - **Obesidade Tipo I**: 4
+> - **Obesidade Tipo II**: 5
+> - **Obesidade Tipo III**: 6
 
-#### 4.2.2. Árvore de Decisão
+- **AUC-ROC** = 97.44%
+- **F1-score Minor Class** = 87.16%
+
+### 4.2.2. Árvore de Decisão
 
 - **Matriz de Confusão**:
-  - (Gráfico)
+  <p align="center">
+    <img src="images/images/matriz_arvore.jpg" alt="Tabela Dataset" width="400px">
+  </p>
   
 - **Curva ROC**:
-  - (Gráfico)
+  <p align="center">
+    <img src="images/images/arvore_roc.jpg" alt="Tabela Dataset" width="400px">
+  </p>
 
 - **Relatório de Classificação**:
 
@@ -120,16 +141,29 @@ Desenvolver um sistema de avaliação que:
   | 5               | 0.96      | 0.98   | 0.97     | 105     |
   | 6               | 1.00      | 1.00   | 1.00     | 106     |
 
-  - **AUC-ROC** = 95,49%
-  - **F1-score Minor Class** = 94%
+> ###Legenda:
+> - **Abaixo do Peso**: 0
+> - **Peso Normal**: 1
+> - **Excesso de Peso Nível I**: 2
+> - **Excesso de Peso Nível II**: 3
+> - **Obesidade Tipo I**: 4
+> - **Obesidade Tipo II**: 5
+> - **Obesidade Tipo III**: 6
 
-#### 4.2.3. Rede Neural Artificial
+- **AUC-ROC** = 95,49%
+- **F1-score Minor Class** = 94%
+
+### 4.2.3. Rede Neural Artificial
 
 - **Matriz de Confusão**:
-  - (Gráfico)
+  <p align="center">
+    <img src="images/images/matriz_rede_neural.jpg" alt="Tabela Dataset" width="400px">
+  </p>
   
 - **Curva ROC**:
-  - (Gráfico)
+  <p align="center">
+    <img src="images/images/roc_rede_neural.jpg" alt="Tabela Dataset" width="400px">
+  </p>
 
 - **Relatório de Classificação**:
 
@@ -143,8 +177,17 @@ Desenvolver um sistema de avaliação que:
   | 5               | 0.92      | 0.99   | 0.95     | 88      |
   | 6               | 0.99      | 1.00   | 0.99     | 98      |
 
-  - **AUC-ROC** = 97%
-  - **F1-score Minor Class** = 99,49%
+> ###Legenda:
+> - **Abaixo do Peso**: 0
+> - **Peso Normal**: 1
+> - **Excesso de Peso Nível I**: 2
+> - **Excesso de Peso Nível II**: 3
+> - **Obesidade Tipo I**: 4
+> - **Obesidade Tipo II**: 5
+> - **Obesidade Tipo III**: 6
+
+- **AUC-ROC** = 97%
+- **F1-score Minor Class** = 99,49%
 
 ---
 
@@ -153,10 +196,14 @@ Desenvolver um sistema de avaliação que:
 O comitê de avaliação foi implementado para comparar os três modelos principais de Machine Learning e identificar o mais eficaz na classificação dos níveis de obesidade. Além de avaliar o desempenho individual de cada modelo, o comitê busca entender como cada técnica se comporta.
 
 - **Matriz de Confusão**:
-  - (Gráfico)
+  <p align="center">
+    <img src="images/images/matriz_comite.jpg" alt="Tabela Dataset" width="400px">
+  </p>
   
 - **Curva ROC**:
-  - (Gráfico)
+  <p align="center">
+    <img src="images/images/roc_comite.jpg" alt="Tabela Dataset" width="400px">
+  </p>
 
 - **Relatório de Classificação**:
 
@@ -170,10 +217,30 @@ O comitê de avaliação foi implementado para comparar os três modelos princip
   | 5               | 0.97      | 0.98   | 0.98     | 105     |
   | 6               | 1.00      | 1.00   | 1.00     | 106     |
 
-  - **AUC-ROC** = 95,99%
-  - **F1-score Minor Class** = 98%
+> ###Legenda:
+> - **Abaixo do Peso**: 0
+> - **Peso Normal**: 1
+> - **Excesso de Peso Nível I**: 2
+> - **Excesso de Peso Nível II**: 3
+> - **Obesidade Tipo I**: 4
+> - **Obesidade Tipo II**: 5
+> - **Obesidade Tipo III**: 6
 
----
+
+- **AUC-ROC** = 95,99%
+- **F1-score Minor Class** = 98%
+
+## **Resultados Comparativos entre Modelos**:
+
+  <p align="center">
+    <img src="images/images/table_comparacao.jpg" alt="Tabela Dataset" width="400px">
+  </p>
+  <p align="center">
+    <img src="images/images/roc_comparacao.jpg" alt="Tabela Dataset" width="400px">
+  </p>
+  <p align="center">
+    <img src="images/images/f1_score_comparacao.jpg" alt="Tabela Dataset" width="400px">
+  </p>
 
 ## 8. Conclusão
 
