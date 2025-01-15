@@ -105,7 +105,7 @@ Desenvolver um sistema de avaliação que:
   | 5               | 0.94      | 0.99   | 0.97     | 126     |
   | 6               | 0.98      | 1.00   | 0.99     | 96      |
 
-> ###Legenda:
+###Legenda:
 > - **Abaixo do Peso**: 0
 > - **Peso Normal**: 1
 > - **Excesso de Peso Nível I**: 2
@@ -141,7 +141,7 @@ Desenvolver um sistema de avaliação que:
   | 5               | 0.96      | 0.98   | 0.97     | 105     |
   | 6               | 1.00      | 1.00   | 1.00     | 106     |
 
-> ###Legenda:
+###Legenda:
 > - **Abaixo do Peso**: 0
 > - **Peso Normal**: 1
 > - **Excesso de Peso Nível I**: 2
@@ -177,7 +177,7 @@ Desenvolver um sistema de avaliação que:
   | 5               | 0.92      | 0.99   | 0.95     | 88      |
   | 6               | 0.99      | 1.00   | 0.99     | 98      |
 
-> ###Legenda:
+###Legenda:
 > - **Abaixo do Peso**: 0
 > - **Peso Normal**: 1
 > - **Excesso de Peso Nível I**: 2
@@ -217,7 +217,7 @@ O comitê de avaliação foi implementado para comparar os três modelos princip
   | 5               | 0.97      | 0.98   | 0.98     | 105     |
   | 6               | 1.00      | 1.00   | 1.00     | 106     |
 
-> ###Legenda:
+###Legenda:
 > - **Abaixo do Peso**: 0
 > - **Peso Normal**: 1
 > - **Excesso de Peso Nível I**: 2
@@ -250,14 +250,3 @@ A análise cuidadosa, desde o pré-processamento até a validação final, refor
 
 ---
 
-## Integrantes do Projeto
-
-- **Gustavo Rodrigues** – RA 822125117
-- **Juan Souza** – RA 822138724
-- **João Pedro Silva** – RA 822153960
-- **Marcio Faria** – RA 824219962
-
-## Professores
-
-- **José Carmino Gomes Junior**
-- **Bruno Silveira de Lima Honda**
